@@ -1,0 +1,36 @@
+.intro {
+  position: relative;
+}
+
+.intro__img {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.intro__title {
+  color: var(--primary);
+}
+
+@media screen and (min-width: 576px) {
+  .intro__img {
+    margin: 0;
+  }
+
+  .intro__title {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-width: 480px;
+    height: 80px;
+    text-align: center;
+    color: #e7e9f0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .intro__title {
+    max-width: 990px;
+    height: 144px;
+  }
+}

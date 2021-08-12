@@ -1,0 +1,27 @@
+.play-button__ring {
+  width: 50px;
+  height: 50px;
+}
+
+.play-button__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  margin: auto;
+}
+
+/* rotating ring animation */
+.rotate-ring {
+  animation: rotate-play-button-ring 5s linear infinite;
+}
+
+@keyframes rotate-play-button-ring {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,18 @@
+.navbar__nav-desk {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-desk__nav-link {
+  margin-right: 48px;
+}
+
+.nav-desk__nav-link.select {
+  font-weight: 600;
+}
+
+.nav-desk__cta {
+  width: 131px;
+  height: 41px;
+  border-radius: 10px;
+}
