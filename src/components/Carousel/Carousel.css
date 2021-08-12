@@ -1,0 +1,12 @@
+.carousel-item {
+  width: 200px;
+  height: 200px;
+}
+
+.carousel-item:nth-of-type(even) {
+  background: cyan;
+}
+
+.carousel-item:nth-of-type(odd) {
+  background: darkkhaki;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import PlayButton from "../PlayButton/PlayButton";
+import PlayBanner from "../PlayBanner/PlayBanner.js";
 import img from "../../assets/img/png/aboutus/img.png";
 
 import "./AboutUs.css";
@@ -8,7 +8,7 @@ export default function AboutUs() {
   return (
     <section className="about-us">
       <div className="wrapper">
-        <h5 className="h5 f-wt-500 c-gray-500 about-us__title-1">ABOUT US</h5>
+        <h3 className="h3 f-wt-500 c-gray-500 about-us__title-1">ABOUT US</h3>
         <div className="container">
           <div className="about-us__img-container">
             <img src={img} alt="about-us-img" className="block about-us__img" />
@@ -29,11 +29,7 @@ export default function AboutUs() {
                 Our focus is to simply apply IT solutions to challenging and
                 complex business issues.
               </p>
-              <h3 className="h3 f-wt-500 c-primary about-us__title-2">
-                About Bits & BYTE
-              </h3>
-              <PlayButton className="about-us__play-button" />
-              <hr className="about-us__underline" />
+              <PlayBanner title="About Bits & BYTE" color="primary" />
             </div>
           </div>
         </div>

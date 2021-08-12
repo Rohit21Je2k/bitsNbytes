@@ -20,7 +20,7 @@ export default function PlayButton(props) {
             cy="25"
             r="24.5"
             stroke="#535F80"
-            stroke-dasharray="5 5"
+            strokeDasharray="5 5"
           />
         </svg>
         {/* play */}

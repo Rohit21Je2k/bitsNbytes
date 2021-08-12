@@ -1,0 +1,15 @@
+.play-banner__title {
+  margin-bottom: 8px;
+}
+
+.play-banner__play-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.play-banner__underline {
+  margin-right: 25px;
+  height: 1px;
+  border: 0;
+}

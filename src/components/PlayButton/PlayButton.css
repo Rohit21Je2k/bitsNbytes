@@ -1,6 +1,11 @@
-.play-button__ring {
+.play-button {
   width: 50px;
   height: 50px;
+}
+
+.play-button__ring {
+  width: 100%;
+  height: 100%;
 }
 
 .play-button__play {
@@ -13,7 +18,7 @@
 
 /* rotating ring animation */
 .rotate-ring {
-  animation: rotate-play-button-ring 5s linear infinite;
+  animation: rotate-play-button-ring 8s linear infinite;
 }
 
 @keyframes rotate-play-button-ring {
@@ -23,5 +28,18 @@
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .play-button {
+    width: 70px;
+    height: 70px;
+  }
+
+  .play-button__play {
+    width: 20px;
+    height: 20px;
+    transform: translate(-40%, -50%);
   }
 }

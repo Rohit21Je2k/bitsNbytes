@@ -1,0 +1,22 @@
+.recent-works {
+  padding-bottom: 60px;
+}
+
+.recent-works__big-ellipse {
+  height: 280px;
+  background-image: url("../../assets/img/vector/big-ellipse.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.recent-works__title {
+  margin-bottom: 20px;
+}
+
+.recent-works__para-1 {
+  margin-bottom: 30px;
+}
+
+.recent-works__para-2 {
+  margin-bottom: 20px;
+}
