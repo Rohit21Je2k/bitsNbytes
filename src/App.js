@@ -3,6 +3,8 @@ import React from "react";
 import NavBar from "./components/Navigation/NavBar/NavBar.js";
 import Home from "./containers/Home/Home.js";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import "./styles/main.css";
 function App() {
   return (

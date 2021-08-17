@@ -1,0 +1,43 @@
+.rtl-marquee {
+  padding: 50px 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.rtl__text {
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 150px;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+
+.rtl__text text {
+  fill: var(--gray-100);
+  stroke: var(--primary);
+  stroke-width: 3px;
+}
+
+.rtl-marquee-animation {
+  flex: none;
+  width: 2000px;
+
+  animation: rtl-marquee-animation linear infinite;
+  animation-duration: 12s;
+}
+
+@keyframes rtl-marquee-animation {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(-100%, 0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rtl-marquee-animation {
+    animation-duration: 7s;
+  }
+}

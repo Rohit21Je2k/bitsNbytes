@@ -10,22 +10,22 @@
   --xl: 1200px;
 
   /* gray */
-  --gray-100: hsl(0, 0%, 100%);
-  --gray-200: hsl(227, 23%, 92%);
-  --gray-200: #f9fafb;
-  --gray-300: #f2f2f2;
+  --gray-100: #ffffff;
+  --gray-200: #e6e8ef;
+  --gray-300: #e7e9f0;
   --gray-400: #adb6bd;
   --gray-500: #939393;
-  --gray-700: #050302;
 
   /* primary */
   --primary: hsl(221, 28%, 41%);
 
   /* accent */
-  --accent: hsl(240, 33%, 97%);
+  --accent: #f5f5fa;
 
   /* other */
-  --vl-blue: hsl(180, 100%, 95%);
+  --vl-blue: #e5ffff;
+
+  --l-blue: #edeff3;
 }
 
 /************************ topography *************************/
@@ -64,7 +64,7 @@
   line-height: 150%;
 }
 
-.h5 {
+/* .h5 {
   font-size: 16px;
   line-height: 120%;
 }
@@ -72,7 +72,7 @@
 .h6 {
   font-size: 12px;
   line-height: 150%;
-}
+}  */
 
 @media screen and (min-width: 992px) {
   .h1 {
@@ -80,9 +80,19 @@
     line-height: 120%;
   }
 
+  .h2 {
+    font-size: 32px;
+    line-height: 150%;
+  }
+
   .h3 {
     font-size: 24px;
     line-height: 120%;
+  }
+
+  .h4 {
+    font-size: 20px;
+    line-height: 150%;
   }
 }
 
@@ -106,10 +116,10 @@
   line-height: 200%;
 }
 
-.p3 {
+/* .p3 {
   font-size: 14px;
   line-height: 150%;
-}
+} */
 
 .p3 {
   font-size: 12px;
@@ -124,6 +134,16 @@
 @media screen and (min-width: 992px) {
   .p1 {
     font-size: 32px;
+    line-height: 150%;
+  }
+
+  .p3 {
+    font-size: 16px;
+    line-height: 200%;
+  }
+
+  .p4 {
+    font-size: 16px;
     line-height: 150%;
   }
 }
@@ -163,6 +183,10 @@
 
 .c-accent {
   color: var(--accent);
+}
+
+.bg-gray-100 {
+  background-color: var(--gray-100);
 }
 
 .bg-primary {

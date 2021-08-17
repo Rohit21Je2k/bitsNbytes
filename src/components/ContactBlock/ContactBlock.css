@@ -1,0 +1,28 @@
+.contact-block {
+  padding: 50px 0;
+}
+
+.contact-block__para {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.contact-block__play-banner {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-block {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact-block {
+    padding: 100px 0;
+  }
+
+  .contact-block__para {
+    max-width: 990px;
+  }
+}

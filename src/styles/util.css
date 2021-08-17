@@ -21,6 +21,10 @@
   display: inline;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 /* border */
 .b-0 {
   border: 0;
@@ -80,6 +84,7 @@
 
 @media screen and (min-width: 1260px) {
   .wrapper {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

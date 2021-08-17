@@ -1,0 +1,60 @@
+/* partner card */
+.partner-card {
+  min-width: 300px;
+  max-width: 312px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 20px 23px 27px rgba(0, 0, 0, 0.15);
+}
+
+.partner-card__img {
+  margin-bottom: 20px;
+  width: 90px;
+  height: 50px;
+  background-color: #c4c4c4;
+}
+
+.partner-card__number {
+  float: right;
+}
+
+.partner-card__underline {
+  width: 90px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.partner-card__name {
+  margin-bottom: 10px;
+}
+
+.partner-card__info {
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .partner-card {
+    max-width: 470px;
+    padding: 40px;
+    margin: 0;
+  }
+
+  .partner-card__img {
+    width: 170px;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .partner-card__underline {
+    margin-bottom: 40px;
+  }
+
+  .partner-card__name {
+    margin-bottom: 20px;
+  }
+
+  .partner-card__info {
+    margin-bottom: 0;
+  }
+}

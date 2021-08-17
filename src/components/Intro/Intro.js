@@ -1,5 +1,6 @@
 import React from "react";
 
+import PlayButton from "../PlayButton/PlayButton.js";
 import intro from "../../assets/img/png/Intro/intro.png";
 
 import "./Intro.css";
@@ -11,6 +12,7 @@ export default function Intro() {
         <h1 className="h1 intro__title">
           Design the best possible IT infrastructure of your choice
         </h1>
+        <PlayButton className="intro__play-button" color="gray-100" />
       </div>
     </section>
   );

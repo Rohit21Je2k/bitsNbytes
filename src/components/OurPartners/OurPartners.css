@@ -1,0 +1,116 @@
+.our-partners {
+  padding: 50px 0;
+}
+
+.our-partners__title {
+  margin-bottom: 20px;
+}
+
+.our-partners__title-para {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+/* all partners name */
+.our-partners__all-partners-name {
+  display: none;
+  max-width: 600px;
+}
+
+/* all partners cards */
+.our-partners__all-cards {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .our-partners {
+    padding: 100px 0;
+  }
+
+  .our-partners__title {
+    margin-bottom: 32px;
+  }
+
+  .our-partners__title-para {
+    margin-bottom: 32px;
+  }
+
+  /* partners container */
+  .our-partners-container {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+  }
+
+  /* all partners name */
+  .our-partners__all-partners-name {
+    display: block;
+  }
+
+  .our-partners__all-cards {
+    display: block;
+  }
+
+  .our-partners__all-partners-name .name {
+    max-width: 600px;
+    height: 80px;
+    margin-bottom: 16px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .our-partners__all-partners-name .name text {
+    fill: var(--gray-100);
+    stroke: var(--primary);
+    stroke-width: 1px;
+  }
+
+  .our-partners__all-partners-name .name:hover text {
+    fill: var(--primary);
+  }
+
+  /* all cards */
+  .our-partners__all-cards {
+    position: relative;
+    width: 100%;
+    max-width: 470px;
+  }
+
+  /* partner card */
+  .our-partners__partner-card {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* our-partners__carousel */
+
+.our-partners__carousel .slider-wrapper {
+  height: 400px !important;
+}
+
+.our-partners__carousel .slide {
+  text-align: left !important;
+}
+
+.our-partners__carousel .control-dots .dot {
+  box-shadow: none !important;
+  background-color: var(--primary) !important;
+  opacity: 0.5;
+}
+
+.our-partners__carousel .control-dots .dot.selected {
+  opacity: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .our-partners__carousel {
+    display: none;
+  }
+}

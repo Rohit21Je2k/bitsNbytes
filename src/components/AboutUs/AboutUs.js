@@ -2,16 +2,34 @@ import React from "react";
 
 import PlayBanner from "../PlayBanner/PlayBanner.js";
 import img from "../../assets/img/png/aboutus/img.png";
+import video from "../../assets/video/soc.mp4";
 
 import "./AboutUs.css";
 export default function AboutUs() {
+  const playVideoHandler = (e) => {
+    const video = e.target;
+    video.play();
+  };
+
+  const stopVideoHandler = (e) => {
+    const video = e.target;
+    video.load();
+  };
   return (
     <section className="about-us">
       <div className="wrapper">
         <h3 className="h3 f-wt-500 c-gray-500 about-us__title-1">ABOUT US</h3>
         <div className="container">
           <div className="about-us__img-container">
-            <img src={img} alt="about-us-img" className="block about-us__img" />
+            <video
+              onMouseEnter={playVideoHandler}
+              onMouseLeave={stopVideoHandler}
+              className="about-us__video"
+              poster={img}
+              muted="muted"
+            >
+              <source src={video} type="video/mp4" />
+            </video>
           </div>
           <div className="about-us__paras">
             <p className="p1 f-wt-600 c-primary about-us__para-1">

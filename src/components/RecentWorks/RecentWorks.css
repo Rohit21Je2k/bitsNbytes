@@ -20,3 +20,56 @@
 .recent-works__para-2 {
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 576px) {
+  .recent-works {
+    padding: 200px 0;
+  }
+
+  .recent-works .container {
+    max-width: 300px;
+  }
+
+  .recent-works__big-ellipse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 810px;
+    background-size: contain;
+    background-position: right center;
+  }
+
+  .recent-works__para-2__container {
+    max-width: 340px;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 674px) {
+  .recent-works .container {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .recent-works .container {
+    max-width: 450px;
+  }
+
+  .recent-works__big-ellipse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 405px;
+    height: 810px;
+    background-size: auto;
+    background-position: right center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .recent-works .container {
+    max-width: 600px;
+  }
+}
