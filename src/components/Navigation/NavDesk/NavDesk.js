@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import NavBanner from "../NavBanner/NavBanner";
 import "./NavDesk.css";
@@ -19,20 +20,24 @@ export default function NavDesk() {
   return (
     <ul className="flex-ai-c navbar__nav-desk">
       <li>
-        <button
-          className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link select"
-          onClick={handleClick}
-        >
-          Home
-        </button>
+        <Link to="/">
+          <button
+            className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link select"
+            onClick={handleClick}
+          >
+            Home
+          </button>
+        </Link>
       </li>
       <li>
-        <button
-          className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link"
-          onClick={handleClick}
-        >
-          About
-        </button>
+        <Link to="/about">
+          <button
+            className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link"
+            onClick={handleClick}
+          >
+            About
+          </button>
+        </Link>
       </li>
       <li>
         <button
@@ -58,12 +63,14 @@ export default function NavDesk() {
         )}
       </li>
       <li>
-        <button
-          className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link"
-          onClick={handleClick}
-        >
-          Contact
-        </button>
+        <Link to="/contact">
+          <button
+            className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link"
+            onClick={handleClick}
+          >
+            Contact
+          </button>
+        </Link>
       </li>
       <li>
         <button className="flex flex-jc-c flex-ai-c b-0 bg-vl-blue f-epilogue h4 f-wt-500 c-primary nav-desk__cta">

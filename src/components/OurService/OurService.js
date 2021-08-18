@@ -29,7 +29,7 @@ export default function OurService() {
           </div>
 
           <div className="our-service__service">
-            <h4 className="h4 our-service__service-number">01</h4>
+            <h4 className="h4 our-service__service-number">02</h4>
             <hr className="b-0 bg-gray-100 our-service__service-underline" />
             <h4 className="h4 f-wt-600 our-service__service-name">
               Cloud service offerings
@@ -43,7 +43,7 @@ export default function OurService() {
           </div>
 
           <div className="our-service__service">
-            <h4 className="h4 our-service__service-number">01</h4>
+            <h4 className="h4 our-service__service-number">03</h4>
             <hr className="b-0 bg-gray-100 our-service__service-underline" />
             <h4 className="h4 f-wt-600 our-service__service-name">
               Cloud service offerings
@@ -57,7 +57,7 @@ export default function OurService() {
           </div>
 
           <div className="our-service__service">
-            <h4 className="h4 our-service__service-number">01</h4>
+            <h4 className="h4 our-service__service-number">04</h4>
             <hr className="b-0 bg-gray-100 our-service__service-underline" />
             <h4 className="h4 f-wt-600 our-service__service-name">
               Cloud service offerings

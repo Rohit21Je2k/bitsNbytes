@@ -1,0 +1,17 @@
+/* text card */
+.text-card {
+  margin-bottom: 30px;
+}
+
+.text-card__number {
+  margin-bottom: 10px;
+}
+
+.text-card__underline {
+  height: 2px;
+  margin-bottom: 20px;
+}
+
+.text-card__name {
+  margin-bottom: 10px;
+}

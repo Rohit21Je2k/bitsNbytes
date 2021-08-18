@@ -1,0 +1,47 @@
+.page-banner__background {
+  min-height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-banner__text {
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 630px) {
+  .page-banner .wrapper {
+    margin: 0 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-banner__background {
+    min-height: 350px;
+  }
+
+  .page-banner .wrapper {
+    margin: 0 80px;
+  }
+
+  .page-banner__text {
+    padding: 50px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-banner__background {
+    min-height: 400px;
+  }
+
+  .page-banner .wrapper {
+    margin: 0 30px;
+  }
+
+  .page-banner__text {
+    padding: 100px 0;
+  }
+}
