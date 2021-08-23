@@ -1,0 +1,37 @@
+.meet-our-team {
+  padding: 50px 0;
+}
+
+.meet-our-team__title {
+  margin-bottom: 30px;
+}
+
+.meet-our-team__controls {
+  display: none;
+}
+
+.meet-our-team__team-cards {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .meet-our-team .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  .meet-our-team__title {
+    margin: 0;
+  }
+
+  .meet-our-team__controls {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .meet-our-team__controls .prev {
+    margin-right: 52px;
+    transform: rotate(180deg);
+  }
+}

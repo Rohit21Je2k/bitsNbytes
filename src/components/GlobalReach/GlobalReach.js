@@ -2,6 +2,7 @@ import React, { useCallback } from "react";
 
 import { Carousel } from "react-responsive-carousel";
 import img from "../../assets/img/png/our-reach/office.png";
+import ImgCard from "../ImgCard/ImgCard";
 import "./GlobalReach.css";
 export default function GlobalReach() {
   const carouselRefHandler = useCallback((node) => {
@@ -31,25 +32,33 @@ export default function GlobalReach() {
           showStatus={false}
           showThumbs={false}
         >
-          <div className="global-reach__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Bangalore Office</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Bangalore Office"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae."
+          />
 
-          <div className="global-reach__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Singapore Office</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Singapore Office"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae."
+          />
 
-          <div className="global-reach__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Ghana Office</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Ghana Office"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae."
+          />
 
-          <div className="global-reach__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">London Office</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="London Office"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae."
+          />
         </Carousel>
       </div>
     </section>

@@ -10,7 +10,6 @@ import OurPartners from "../../components/OurPartners/OurPartners.js";
 import Testimonial from "../../components/Testimonial/Testimonial.js";
 import GlobalReach from "../../components/GlobalReach/GlobalReach.js";
 import ContactBlock from "../../components/ContactBlock/ContactBlock.js";
-import Footer from "../../components/Footer/Footer.js";
 
 import "./Home.css";
 export default function Home() {
@@ -26,7 +25,6 @@ export default function Home() {
       <Testimonial />
       <GlobalReach />
       <ContactBlock />
-      <Footer />
     </>
   );
 }

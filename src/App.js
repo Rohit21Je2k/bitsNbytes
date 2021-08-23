@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import NavBar from "./components/Navigation/NavBar/NavBar.js";
+import Footer from "./components/Footer/Footer.js";
 import Home from "./containers/Home/Home.js";
 import About from "./containers/AboutUs/About.js";
 
@@ -26,6 +27,7 @@ function App() {
         </Route>
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </Router>
   );
 }

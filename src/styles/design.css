@@ -20,7 +20,7 @@
   --primary: hsl(221, 28%, 41%);
 
   /* accent */
-  --accent: #f5f5fa;
+  --accent: #edeff3;
 
   /* other */
   --vl-blue: #e5ffff;
@@ -199,4 +199,8 @@
 
 .bg-vl-blue {
   background-color: var(--vl-blue);
+}
+
+.bg-l-blue {
+  background-color: var(--l-blue);
 }

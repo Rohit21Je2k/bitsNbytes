@@ -29,14 +29,8 @@
     background-color: var(--primary);
   }
 
-  .about-the-company__title-para {
-    max-width: 400px;
-    font-weight: bold !important;
-    font-size: 60px !important;
-    line-height: 150% !important;
-  }
-
   .about-the-company .container {
+    overflow: visible;
     display: flex;
     justify-content: space-between;
   }
@@ -45,8 +39,25 @@
     flex: 1;
   }
 
+  .cnt {
+    position: relative;
+  }
+
+  .about-the-company__title-para {
+    flex: none;
+    position: sticky;
+    top: 40px;
+    max-width: 400px;
+    height: 280px;
+    margin: 0;
+    font-weight: bold !important;
+    font-size: 60px !important;
+    line-height: 150% !important;
+  }
+
   .about-the-company .text-card__container {
     max-width: 600px;
     margin-left: auto;
+    padding-bottom: 20px;
   }
 }

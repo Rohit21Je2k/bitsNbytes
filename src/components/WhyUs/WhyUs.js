@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 
 import { Carousel } from "react-responsive-carousel";
+import ImgCard from "../ImgCard/ImgCard";
 import img from "../../assets/img/png/our-reach/office.png";
 
 import "./WhyUs.css";
@@ -29,25 +30,45 @@ export default function WhyUs() {
           showStatus={false}
           showThumbs={false}
         >
-          <div className="why-us__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Title 1</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Title 1"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae. Ullamcorper rutrum lacus, pulvinar
+          quis. Egestas eu elementum eu dolor at morbi odio imperdiet.
+          Pellentesque diam a sit adipiscing in vulputate. Pretium morbi nullam
+          cursus ipsum feugiat. Aliquet erat sed"
+          />
 
-          <div className="why-us__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Title 2</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Title 1"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae. Ullamcorper rutrum lacus, pulvinar
+          quis. Egestas eu elementum eu dolor at morbi odio imperdiet.
+          Pellentesque diam a sit adipiscing in vulputate. Pretium morbi nullam
+          cursus ipsum feugiat. Aliquet erat sed"
+          />
 
-          <div className="why-us__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Title 3</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Title 1"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae. Ullamcorper rutrum lacus, pulvinar
+          quis. Egestas eu elementum eu dolor at morbi odio imperdiet.
+          Pellentesque diam a sit adipiscing in vulputate. Pretium morbi nullam
+          cursus ipsum feugiat. Aliquet erat sed"
+          />
 
-          <div className="why-us__carousel-item">
-            <img src={img} alt="item-img" />
-            <h4 className="h4 c-gray-100">Title 4</h4>
-          </div>
+          <ImgCard
+            imgSrc={img}
+            title="Title 1"
+            para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor fames
+          volutpat, malesuada viverra vitae. Ullamcorper rutrum lacus, pulvinar
+          quis. Egestas eu elementum eu dolor at morbi odio imperdiet.
+          Pellentesque diam a sit adipiscing in vulputate. Pretium morbi nullam
+          cursus ipsum feugiat. Aliquet erat sed"
+          />
         </Carousel>
       </div>
     </section>

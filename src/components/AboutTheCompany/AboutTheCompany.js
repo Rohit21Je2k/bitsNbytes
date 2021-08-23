@@ -1,22 +1,54 @@
 import React from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import TextCard from "../TextCard/TextCard";
 import PlayBanner from "../PlayBanner/PlayBanner.js";
 import "./AboutTheCompany.css";
 export default function AboutTheCompany() {
+  const handleAboutTheCompanyRef = (node) => {
+    if (node) {
+      gsap.registerPlugin(ScrollTrigger);
+      // animating underline
+      gsap.from(".about-the-company__title-underline", {
+        scrollTrigger: {
+          trigger: ".about-the-company__title-underline",
+          start: "top bottom",
+        },
+        width: 0,
+        duration: 0.7,
+      });
+      // animating text cards on scroll
+      gsap.utils.toArray(".about-the-company__text-card").forEach((card) => {
+        gsap.from(card, {
+          scrollTrigger: {
+            trigger: card,
+            start: "top bottom",
+          },
+          duration: 1,
+          opacity: 0,
+          ease: "power1",
+        });
+      });
+    }
+  };
+
   return (
-    <div className="about-the-company">
+    <div ref={handleAboutTheCompanyRef} className="about-the-company">
       <div className="wrapper">
         <h3 className="h3 f-wt-500 c-gray-500 about-the-company__title">
           ABOUT THE COMPANY
         </h3>
         <hr className="about-the-company__title-underline" />
         <div className="container">
+          {/* h4 */}
           <h4 className="about-the-company__title-para p1 f-wt-600 c-primary ">
             Turn your vision into reality
           </h4>
+          {/* text-card container */}
           <div className="text-card__container">
             <TextCard
+              className="about-the-company__text-card"
               color="primary"
               number="01"
               title="Who We Are"
@@ -33,6 +65,7 @@ export default function AboutTheCompany() {
             that are relevant to your business needs."
             />
             <TextCard
+              className="about-the-company__text-card"
               color="primary"
               number="02"
               title="How we do"
@@ -43,6 +76,7 @@ export default function AboutTheCompany() {
           transformation through niche technology."
             />
             <TextCard
+              className="about-the-company__text-card"
               color="primary"
               number="03"
               title="Vendor-Agnostic Solutions"

@@ -21,7 +21,7 @@ export default function PlayButton(props) {
             r="24.5"
             stroke="#535F80"
             strokeDasharray="5 5"
-            style={{ stroke: `var(--${color})` }}
+            style={{ stroke: `var(--${color || "primary"})` }}
           />
         </svg>
         {/* play */}
@@ -36,7 +36,7 @@ export default function PlayButton(props) {
           <path
             d="M12.2664 6.11032C12.991 6.48216 12.991 7.51784 12.2664 7.88968L1.95658 13.1807C1.29112 13.5222 0.499999 13.039 0.499999 12.291L0.5 1.709C0.5 0.961017 1.29112 0.4778 1.95658 0.819316L12.2664 6.11032Z"
             fill="none"
-            style={{ fill: `var(--${color})` }}
+            style={{ fill: `var(--${color || "primary"})` }}
           />
         </svg>
       </div>

@@ -73,7 +73,7 @@ export default function NavDesk() {
         </Link>
       </li>
       <li>
-        <button className="flex flex-jc-c flex-ai-c b-0 bg-vl-blue f-epilogue h4 f-wt-500 c-primary nav-desk__cta">
+        <button className="flex flex-jc-c flex-ai-c b-0 bg-vl-blue f-epilogue f-wt-600 c-primary nav-desk__cta">
           Let's Talk
         </button>
       </li>

@@ -1,0 +1,22 @@
+.team-card {
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.team-card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-card__name,
+.team-card__position {
+  margin-left: 20px;
+}
+
+.team-card__position {
+  margin-bottom: 10px;
+}
