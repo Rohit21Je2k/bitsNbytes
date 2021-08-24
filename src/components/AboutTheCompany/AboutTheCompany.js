@@ -25,7 +25,7 @@ export default function AboutTheCompany() {
             trigger: card,
             start: "top bottom",
           },
-          duration: 1,
+          duration: 1.5,
           opacity: 0,
           ease: "power1",
         });
