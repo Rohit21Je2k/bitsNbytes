@@ -3,6 +3,7 @@ import React from "react";
 import PlayButton from "../PlayButton/PlayButton";
 
 import "./PlayBanner.css";
+
 export default function Button(props) {
   const { className, title, color } = props;
   return (

@@ -7,7 +7,8 @@ export default function NavDesk() {
   const [banner, setBanner] = useState(false);
   function handleClick(e, type) {
     if (type === "services") {
-      setBanner(!banner);
+      // setBanner(!banner);
+      setBanner(false);
     } else {
       setBanner(false);
     }
@@ -40,14 +41,16 @@ export default function NavDesk() {
         </Link>
       </li>
       <li>
-        <button
-          className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link"
-          onClick={(e) => {
-            handleClick(e, "services");
-          }}
-        >
-          Services
-        </button>
+        <Link to="/service">
+          <button
+            className="b-0 bg-none h4 f-wt-400 c-gray-100 nav-desk__nav-link"
+            onClick={(e) => {
+              handleClick(e, "services");
+            }}
+          >
+            Services
+          </button>
+        </Link>
         {banner && (
           <NavBanner
             title="Services"

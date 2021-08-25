@@ -1,0 +1,31 @@
+.solutions {
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.solutions .title-container {
+  margin: 100px 0;
+  overflow: hidden;
+}
+
+.solutions__title-1,
+.solutions__title-2 {
+  display: block;
+  width: 630px;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 100px;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+
+.solutions__title-2 {
+  margin-left: auto;
+}
+
+.solutions__title-1 text,
+.solutions__title-2 text {
+  fill: var(--gray-100);
+  stroke: var(--primary);
+  stroke-width: 3px;
+}

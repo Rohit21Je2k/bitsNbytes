@@ -10,6 +10,7 @@ import NavBar from "./components/Navigation/NavBar/NavBar.js";
 import Footer from "./components/Footer/Footer.js";
 import Home from "./containers/Home/Home.js";
 import About from "./containers/AboutUs/About.js";
+import Service from "./containers/Service/Service.js";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/about" exact>
           <About />
+        </Route>
+        <Route path="/service" exact>
+          <Service />
         </Route>
         <Redirect to="/" />
       </Switch>

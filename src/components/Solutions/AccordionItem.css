@@ -1,0 +1,124 @@
+:root {
+  --slt-acc-ani-du: 300ms;
+}
+
+.solution__accordion-item {
+  background-color: var(--gray-100);
+  color: var(--primary);
+  transition-property: background-color, color;
+  transition-duration: var(--slt-acc-ani-du);
+  transition-timing-function: ease-in;
+  cursor: pointer;
+}
+
+.solution__accordion-item .container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 84px;
+  transition: height 300ms ease-in;
+}
+
+.solution__accordion-item__title-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.solution__accordion-number,
+.solution__accordion-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.solution__accordion-number {
+  margin-right: 20px;
+}
+
+/************ img container ***************/
+.solution__accordion-item__img-container {
+  /* position */
+  position: absolute;
+  top: 20px;
+  right: 0;
+  /* dimension */
+  width: 80px;
+  height: 50px;
+  /* transition */
+  transition-property: width, height, top, right;
+  transition-timing-function: ease-in;
+  transition-duration: var(--slt-acc-ani-du);
+}
+
+.solution__accordion-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/*************** para container  ****************/
+.solution__accordion-item__para-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 30px;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+  transition-delay: 300ms;
+}
+
+.solution__accordion-para {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.solution__accordion-playBanner {
+  width: 100%;
+  margin-left: auto;
+}
+
+/****************** underline  *****************/
+.solution__accordion-underline {
+  border: none;
+  width: 100%;
+  height: 0.15rem;
+  background: var(--primary);
+}
+
+/* accordion item active */
+.solution__accordion-item.active {
+  position: relative;
+  background-color: var(--primary);
+  color: var(--gray-100);
+}
+
+.solution__accordion-item.active .container {
+  height: 580px;
+}
+
+.solution__accordion-item.active .solution__accordion-item__para-container {
+  opacity: 1;
+  visibility: visible;
+}
+
+.solution__accordion-item.active .solution__accordion-item__img-container {
+  top: 100%;
+  right: calc(50% - 140px);
+  width: 100%;
+  width: 280px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .solution__accordion-number,
+  .solution__accordion-title {
+    font-size: 32px;
+  }
+}

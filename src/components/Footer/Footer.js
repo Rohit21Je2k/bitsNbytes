@@ -33,7 +33,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="footer__links__col-2">
-              <h4 className="h4 f-wt-600 c-gray-100 footer__link services">
+              <h4 className="h4 f-wt-600 c-gray-100 footer__link footer__link__services">
                 Services
               </h4>
               <a href="/" className="c-gray-100 footer__link__sub-link">

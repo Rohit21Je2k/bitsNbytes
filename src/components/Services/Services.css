@@ -1,0 +1,34 @@
+.services {
+  padding: 50px 0;
+}
+
+.services__title {
+  max-width: 350px;
+  margin-bottom: 50px;
+}
+
+.services__text-card-container {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 730px) {
+  .services {
+    padding: 100px 0;
+  }
+
+  .services .wrapper {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+  }
+
+  .services .wrapper * {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services__title {
+    max-width: 500px;
+  }
+}

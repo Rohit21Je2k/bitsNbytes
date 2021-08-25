@@ -3,7 +3,7 @@ import React from "react";
 import "./PageBanner.css";
 export default function PageBanner(props) {
   const { imgSrc, title, text } = props;
-  console.log(imgSrc);
+
   return (
     <div className="page-banner">
       <div
