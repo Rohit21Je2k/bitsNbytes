@@ -24,3 +24,8 @@ a {
 button {
   cursor: pointer;
 }
+
+#root {
+  position: relative;
+  overflow: auto;
+}

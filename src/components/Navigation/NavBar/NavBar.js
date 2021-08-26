@@ -1,14 +1,26 @@
 import React from "react";
 
+import { useLocation } from "react-router";
 import NavDesk from "../NavDesk/NavDesk";
-
+// assets
 import logo from "../../../assets/img/logo/logo.png";
 
 import "./NavBar.css";
 
 export default function NavBar() {
+  const location = useLocation();
   return (
-    <nav className="navbar">
+    <nav
+      className="navbar"
+      style={
+        location.pathname !== "/"
+          ? {
+              backgroundImage: "none",
+              backgroundColor: "var(--primary)",
+            }
+          : {}
+      }
+    >
       <div className="wrapper">
         {/* nav logo */}
         <a href="/">

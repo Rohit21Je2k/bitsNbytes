@@ -1,4 +1,5 @@
 .page-banner__background {
+  margin-top: 80px;
   min-height: 240px;
   display: flex;
   justify-content: center;
@@ -18,6 +19,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .page-banner {
+    margin-top: 89px;
+  }
+
   .page-banner__background {
     min-height: 350px;
   }

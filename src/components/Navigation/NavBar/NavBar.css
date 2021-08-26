@@ -1,7 +1,14 @@
 /* navbar */
 .navbar {
-  position: relative;
-  background-color: var(--primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  /* height desk 89px mob 80px */
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent);
+  background-color: transparent;
   padding: 24px 0;
 }
 
@@ -38,6 +45,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .navbar {
+    height: 89px;
+  }
+
   .navbar__hamburger {
     display: none;
   }

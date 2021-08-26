@@ -1,10 +1,10 @@
 import React from "react";
 
-import PlayBanner from "../PlayBanner/PlayBanner.js";
+// import PlayBanner from "../PlayBanner/PlayBanner.js";
 
 import "./AccordionItem.css";
 export default function AccordionItem(props) {
-  const { number, title, para, imgSrc, children } = props;
+  const { number, title, imgSrc, children } = props;
   const handleClick = (e) => {
     const target = e.currentTarget;
 
