@@ -43,6 +43,12 @@
     height: 80px;
     text-align: center;
     color: #e7e9f0;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+  }
+
+  .intro__title.active {
+    opacity: 1;
   }
 
   .intro__play-button {
