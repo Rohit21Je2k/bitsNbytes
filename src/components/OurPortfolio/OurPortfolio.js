@@ -30,17 +30,25 @@ export default function OurPortfolio() {
         <div className="cell-3">
           <ul className="c-gray-100 our-portfolio__list">
             <li>
-              Rich experience of IT infrastructure technology State of art
-              processes and project management skills
+              Superior experience and implementation of IT infrastructure and
+              technologies.
             </li>
-            <li>Strong technology partners</li>
-            <li>Deep domain expertise across key industries</li>
-            <li>Easy access to affordable, expert resources</li>
             <li>
-              Our mission is to provide entire range of networking, security and
-              business solutions to organizations of all sizes and and get
-              recognized as efficient, one stop company for all their networking
-              and security requirements.
+              State of the art processes accompanied by project management.
+            </li>
+            <li>Renowned partners in the technology industry.</li>
+            <li>Domain knowledge and expertise for chief industries.</li>
+            <li>
+              An adaptive and smart array of security and networking solutions.
+            </li>
+            <li>Global internet services, wherever the location.</li>
+            <li>Microsoft IT infrastructure to boost your business.</li>
+            <li>
+              DevOps service offerings to drive speed and quality through
+              automation.
+            </li>
+            <li>
+              Transformation of your environment with cloud service offerings.
             </li>
           </ul>
         </div>

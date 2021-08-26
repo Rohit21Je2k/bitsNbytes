@@ -1,6 +1,9 @@
 /* font: Epilogue */
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap");
 
+/* font hamlet */
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;500;600;700&display=swap");
+
 :root {
   /* breakpoints */
   --xs: 360px;
@@ -32,6 +35,10 @@
 /****** font family ****/
 .f-epilogue {
   font-family: "Epilogue", sans-serif;
+}
+
+.f-hamlet {
+  font-family: "Hahmlet", serif;
 }
 
 /******* heading *******/

@@ -14,10 +14,10 @@ export default function About() {
       <PageBanner
         imgSrc={img}
         title="About us"
-        text="We Provide entire range of networking, security and customized IT
-          solutions to organizations of all sizes . Our flexible, customer
-          oriented services are tailor made to suit the business needs of each
-          customer."
+        text="From computer networking and internet services to IT and SD-WAN 
+        solutions customized just for you, we deliver best-in-class systems to 
+        all kinds of companies. With a client-centric approach, our goal is to
+         create top-notch projects with a touch of simplicity and zest."
       />
       <AboutTheCompany />
       <MeetOurTeam />

@@ -51,43 +51,50 @@ export default function AboutTheCompany() {
               className="about-the-company__text-card"
               color="primary"
               number="01"
-              title="Who We Are"
-              para="Bits and BYTE IT consulting was founded by an entrepreneurial group 
-          of lifelong experienced and successful IT professionals. Our focus is 
-          to simply apply IT solutions to challenging and complex business issues. 
-          We display our deep dedication and passion for technology in all aspects of 
-          our business and the way we serve your business. Corporate Office Based in
-           Bangalore, we focus on flawless execution, by developing and maintaining 
-           outstanding engineering talent, deployed through both our Remote Center of
-            Excellence and at client locations. Built on a foundation of excellence 
-            through real world experience, our team is among the most knowledgeable 
-            and trained in the industry. Our engineering team has impressive credentials 
-            that are relevant to your business needs."
+              title="Who are we?"
+              para="Bits and BYTE IT consulting was started by a team of innovative 
+              entrepreneurs with professional IT and industry experience. We strongly 
+              believe in changing the face of organizations, by providing practical IT 
+              solutions to solve the challenges that arise while running a business. Our
+               company sets forth a passion for technology which is clearly visible in 
+               what we do and how we serve our clients. Our Corporate office which is 
+               based in Bangalore puts flawless execution at the center of attention, by
+                developing and nurturing our engineering talents which are established 
+                through our Remote center of excellence as well as client locations. Our
+                 engineers have notable certifications in the field of cloud service offerings,
+                  server platforms, storage solutions, and IT services which is beneficial for 
+                  clients’ business needs. Our team is skilled with real-world experience and
+                   fine industry training, to provide businesses with a stable foundation that
+                    is built with finesse."
             />
             <TextCard
               className="about-the-company__text-card"
               color="primary"
               number="02"
-              title="How we do"
-              para="Bits & BYTE is enable customers to realize maximum value out of their 
-          IT infrastructure investment through smart IT strategy, seamless 
-          implementation and sincere support. We work closely with customers to help 
-          them achieve operational agility, efficiency and accelerate their business 
-          transformation through niche technology."
+              title="What do we do?"
+              para=" Bits and BYTE provide customers with maximum utilization of their IT
+               infrastructure and its components through smart strategies, seamless software
+                implementation, and customer support. Our main criteria are to work closely 
+                with customers so that we can together achieve business operations agility, 
+                efficiency in systems, and transform your business into the unimaginable through
+                 our niche skills in technology."
             />
             <TextCard
               className="about-the-company__text-card"
               color="primary"
               number="03"
               title="Vendor-Agnostic Solutions"
-              para="We base our implementations on known technology standards and best 
-          practices. We have established relationships with certain vendors to provide 
-          the best products for your money, we are not beholden to any one party. Our 
-          priority is to provide you the best fit for your needs. Technology, Business, 
-          and Financial Acumen. We are not just technically savvy in computer consulting, 
-          but have an understanding of the technology, business, and financial perspectives
-           go hand in hand with any implementation. Full IT Services Our services include 
-           assessment, planning, set-up and ongoing management."
+              para="All our services and systems are based on IT best practices, past experience,
+               and proven high technology standards. We follow independent consultancy to provide
+                our clients with the best results. We do not owe our dependency on any one party 
+                but are ready to work with a number of vendors. We also have established relationships
+                 with businesses whose work we can validate through past projects. Our number one 
+                 priority is to give you the best of what we have and fulfill your requirements.
+                  Besides our tech-savvy minds, our expertise is also inclusive of business and
+                   financial acumen. We believe that technologies, business, and financial perspectives
+                    need to work collectively for quality implementation. With our IT services, we
+                     can help you manage your business through a systematic process of planning,
+                      assessment, set-up, and administration."
             />
             <PlayBanner color="primary" title="Learn More" />
           </div>

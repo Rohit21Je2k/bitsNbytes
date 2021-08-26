@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import PlayBanner from "../PlayBanner/PlayBanner.js";
 import img from "../../assets/img/png/aboutus/img.png";
 import video from "../../assets/video/soc.mp4";
@@ -33,21 +33,27 @@ export default function AboutUs() {
           </div>
           <div className="about-us__paras">
             <p className="p1 f-wt-600 c-primary about-us__para-1">
-              We Provide entire range of networking, security and customized IT
-              solutions to organizations of all sizes.
+              From computer networking and internet services to IT and SD-WAN
+              solutions customized just for you, we deliver best-in-class
+              systems to all kinds of companies. With a client-centric approach,
+              our goal is to create top-notch projects with a touch of
+              simplicity and zest
             </p>
-            <p className="p1 f-wt-600 c-primary about-us__para-2">
+            {/* <p className="p1 f-wt-600 c-primary about-us__para-2">
               Our passion is to create memorable projects in a simple and fun
               way.
-            </p>
+            </p> */}
             <div className="pos-rel about_us__para-3__container">
               <p className="p2 c-primary about-us__para-3">
-                Bits and BYTE IT consulting was founded by an entrepreneurial
-                group of lifelong experienced and successful IT professionals.
-                Our focus is to simply apply IT solutions to challenging and
-                complex business issues.
+                Bits and BYTE IT consulting was started by a team of innovative
+                entrepreneurs with professional IT and industry experience. We
+                strongly believe in changing the face of organizations, by
+                providing practical IT solutions to solve the challenges that
+                arise while running a business.
               </p>
-              <PlayBanner title="About Bits & BYTE" color="primary" />
+              <Link to="/about">
+                <PlayBanner title="Read more..." color="primary" />
+              </Link>
             </div>
           </div>
         </div>
