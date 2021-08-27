@@ -6,7 +6,7 @@ import video from "../../assets/video/intro.mp4";
 import "./Intro.css";
 export default function Intro() {
   useEffect(() => {
-    const time = 4000;
+    const time = 5000;
     setInterval(() => {
       const activeSlide = document.querySelector(".intro__title.active");
 

@@ -3,6 +3,8 @@ import React from "react";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import Services from "../../components/Services/Services";
 import Solutions from "../../components/Solutions/Solutions";
+import Curious from "../../components/Curious/Curious";
+
 // assets
 import banner from "../../assets/img/png/service/banner.png";
 // styles
@@ -20,6 +22,7 @@ export default function Service() {
       />
       <Services />
       <Solutions />
+      <Curious />
     </div>
   );
 }
